@@ -1,0 +1,12 @@
+apiVersion: pipe.damien-trouillet.fr/v1alpha1
+kind: Flux
+metadata:
+  labels:
+    app.kubernetes.io/name: flux
+    app.kubernetes.io/instance: flux-sample
+    app.kubernetes.io/part-of: pipe
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: pipe
+  name: flux-sample
+spec:
+  # TODO(user): Add fields here
