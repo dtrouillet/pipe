@@ -1,0 +1,12 @@
+apiVersion: pipe.damien-trouillet.fr/v1alpha1
+kind: Installation
+metadata:
+  labels:
+    app.kubernetes.io/name: installation
+    app.kubernetes.io/instance: installation-sample
+    app.kubernetes.io/part-of: pipe
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: pipe
+  name: installation-sample
+spec:
+  # TODO(user): Add fields here

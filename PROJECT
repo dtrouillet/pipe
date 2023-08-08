@@ -20,4 +20,13 @@ resources:
   kind: Flux
   path: github.com/dtrouillet/pipe/api/v1alpha1
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: damien-trouillet.fr
+  group: pipe
+  kind: Installation
+  path: github.com/dtrouillet/pipe/api/v1alpha1
+  version: v1alpha1
 version: "3"
